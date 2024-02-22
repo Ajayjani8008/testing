@@ -1,0 +1,142 @@
+/**
+*Theme name : a_theme
+*Theme URI : https://localhost/a_theme
+*Description : Full customize theme
+*version:1.0.0
+*Author: Ajay Jani
+*Author URI :https://localhost/ajay_jani.com
+*Tags: block-pattern,full-site-editing
+*Text Domain:a-theme
+*Domain Path:/assets/lang
+* Tested up to  6.4
+* Requires at least :6.2
+* Requires PHP :7.4
+* License: GNU General Public License v2.0 or later
+* License URI : https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/* CSS for header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.search-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #ddd;
+}
+
+/* CSS for portfolio body */
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.portfolio-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+/* CSS for footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}

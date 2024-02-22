@@ -1,0 +1,1 @@
+This is fully customizable theme for wordpress.
