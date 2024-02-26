@@ -14,20 +14,11 @@
     if (function_exists('wp_body_open')) {
         wp_body_open();
     }
-
-
     ?>
+    <div id="page" class="site">
+        <header id= "masthead" class="site-header" role="banner">
+           <?php get_template_part('template/header/nav');?>
+        </header>
+        <div class="site-content" id="content">
 
-    <header>
-        <img src="" alt="Logo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="search-button">Search</button>
-        <?= wp_head(); ?>
-    </header>
+    

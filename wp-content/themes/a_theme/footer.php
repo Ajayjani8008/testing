@@ -1,4 +1,3 @@
-
 <footer>
     <img src="logo.png" alt="Footer Logo" class="footer-logo">
     <div class="footer-links">
@@ -18,8 +17,8 @@
         </ul>
     </div>
 </footer>
-<?php wp_footer();?>
-
+</div>
+<?php wp_footer(); ?>
 <script src="script.js"></script>
 </body>
 </html>

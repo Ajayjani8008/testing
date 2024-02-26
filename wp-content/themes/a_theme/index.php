@@ -3,12 +3,11 @@
 get_header();
 ?>
 
-
 <!-- contant lies   here  -->
 <?php
 get_template_part('template/template-main');
 ?>
 <!-- footer part -->
-<?php 
+<?php
 get_footer();
 ?>
