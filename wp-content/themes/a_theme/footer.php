@@ -1,12 +1,20 @@
 <footer>
     <img src="logo.png" alt="Footer Logo" class="footer-logo">
+
     <div class="footer-links">
-        <ul>
+        <?php
+        wp_nav_menu(array(
+            'theme_location' => 'footer',
+            'menu_id' => 'footer-menu',
+             // If you want to wrap the menu in a container, set it to 'nav' or 'div'.
+        ));
+        ?>
+        <!--<ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
-        </ul>
+        </ul> -->
     </div>
     <div class="social-icons">
         <ul>
@@ -22,3 +30,18 @@
 <script src="script.js"></script>
 </body>
 </html>
+<?php
+// Get the site layout setting value
+$site_layout = get_theme_mod('site_layout', 'full-width');
+
+// Output the appropriate CSS class based on the setting value
+if ($site_layout == 'boxed') {
+    echo '<div class="boxed-layout">';
+}
+
+// Your theme content goes here
+
+if ($site_layout == 'boxed') {
+    echo '</div><!-- .boxed-layout -->';
+}
+?>

@@ -21,7 +21,7 @@ require get_template_directory().'/includes/helpers/autoloader.php';
 // }
 // a_theme_get_theme_instance();
 
-include A_THEME_DIR_URI.'/include/customizer/custom_function.php';
+require A_THEME_DIR_PATH.'/includes/customizer/custom_function.php';
 
 function a_theme_enqueue_scripts()
 {

@@ -7,6 +7,7 @@ get_header();
 <?php
 get_template_part('template/template-main');
 ?>
+
 <!-- footer part -->
 <?php
 get_footer();
